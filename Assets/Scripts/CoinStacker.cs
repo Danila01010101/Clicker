@@ -114,4 +114,8 @@ public class CoinStacker : MonoBehaviour
             idle.Cost = PlayerPrefs.GetInt(idle.Name.ToString() + "Cost", idle.Cost);
         }
     }
+    public int GetIdleCost(int id)
+    {
+        return idles[id].Cost;
+    }
 }

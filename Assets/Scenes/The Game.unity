@@ -1234,25 +1234,88 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   achivements:
-  - Name: The First Achivement
+  - Name: 'That''s a good start (:'
     icon: {fileID: 0}
-    Description: Earn 100 coins
-    goal: 100
-    revard: 100
+    Description: Earn 228 coins
+    goal: 228
+    revard: 400
     isUnlocked: 0
     isRevardTaken: 0
-  - Name: The SecondOne
+  - Name: The SecondOne is't much harder
     icon: {fileID: 0}
-    Description: haha
-    goal: 500
+    Description: Earn 1337 coins
+    goal: 1337
     revard: 600
     isUnlocked: 0
     isRevardTaken: 0
-  - Name: 
+  - Name: Looks like your salary ;)
     icon: {fileID: 0}
-    Description: 
-    goal: 0
-    revard: 0
+    Description: Earn as much coins as you earn irl
+    goal: 15000
+    revard: 4000
+    isUnlocked: 0
+    isRevardTaken: 0
+  - Name: Now it's hard to hold your money in pokets...
+    icon: {fileID: 0}
+    Description: Earn 50k
+    goal: 50000
+    revard: 8000
+    isUnlocked: 0
+    isRevardTaken: 0
+  - Name: Wow, youre a big boy
+    icon: {fileID: 0}
+    Description: Earn 100k
+    goal: 100000
+    revard: 20000
+    isUnlocked: 0
+    isRevardTaken: 0
+  - Name: Half of half of of half a million
+    icon: {fileID: 0}
+    Description: Earn half of half of of half a million
+    goal: 125000
+    revard: 50000
+    isUnlocked: 0
+    isRevardTaken: 0
+  - Name: I'm tired of coming up with achivements
+    icon: {fileID: 0}
+    Description: Earn 150k
+    goal: 150000
+    revard: 51000
+    isUnlocked: 0
+    isRevardTaken: 0
+  - Name: Half of half of a million
+    icon: {fileID: 0}
+    Description: earn 250k
+    goal: 250000
+    revard: 60000
+    isUnlocked: 0
+    isRevardTaken: 0
+  - Name: On a half way to million
+    icon: {fileID: 0}
+    Description: Earn 500k coins
+    goal: 500000
+    revard: 100000
+    isUnlocked: 0
+    isRevardTaken: 0
+  - Name: You're a millioner
+    icon: {fileID: 0}
+    Description: Earn your first million!!
+    goal: 1000000
+    revard: 200000
+    isUnlocked: 0
+    isRevardTaken: 0
+  - Name: I guess you finished a game(
+    icon: {fileID: 0}
+    Description: Earn 5M coins
+    goal: 5000000
+    revard: 1
+    isUnlocked: 0
+    isRevardTaken: 0
+  - Name: You're finished game + 1
+    icon: {fileID: 0}
+    Description: Earn 5M + 1(M) coins
+    goal: 6000000
+    revard: 6000000
     isUnlocked: 0
     isRevardTaken: 0
 --- !u!1 &1095979405
