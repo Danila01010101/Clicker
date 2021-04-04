@@ -29,12 +29,6 @@ public class AchivementRevarder : MonoBehaviour
         InvokeRepeating("CheckAchivements", 0, 0.5f);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void GetRevard(int ID)
     {
         if (achivements[ID].isRevardTaken == false && achivements[ID].isUnlocked == true)

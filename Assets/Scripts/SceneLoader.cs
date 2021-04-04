@@ -7,11 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public CoinStacker _coinStacker;
-    void Start()
-    {
-        _coinStacker = GameObject.Find("GameManager").GetComponent<CoinStacker>();
-    }
 
     public void LoadAchivments()
     {

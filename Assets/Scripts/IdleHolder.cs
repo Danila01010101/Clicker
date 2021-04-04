@@ -6,21 +6,20 @@ using UnityEngine.UI;
 public class IdleHolder : MonoBehaviour
 {
     public int ID;
-    public CoinStacker _coinStacker;
+    private CoinStacker _coinStacker;
     private GameObject _gameManager;
-    public Text _costText;
+    private Transform _thisGameObject;
+    private Text _costText;
+    private int _cost;
     void Start()
     {
+        _thisGameObject = this.gameObject.transform.Find("Cost");
+        _costText = _thisGameObject.GetComponent<Text>();
         _gameManager = GameObject.Find("GameManager");
         _coinStacker = _gameManager.GetComponent<CoinStacker>();
-        _costText.text = _coinStacker.GetIdleCost(ID).ToString();
     }
 
     void Update()
-    {
-        
-    }
-    public void UpdateCost()
     {
         _costText.text = _coinStacker.GetIdleCost(ID).ToString();
     }

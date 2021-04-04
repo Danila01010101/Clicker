@@ -5,23 +5,17 @@ using UnityEngine.UI;
 
 public class CoinStacker : MonoBehaviour
 {
-    private int _coins;
+    public int _coins;
     private int _numOfAddingCoins = 1;
     private int _passiveIncome = 0;
     public Idle[] idles;
 
-    // Start is called before the first frame update
     void Start()
     {
         LoadStats();
         InvokeRepeating("AddIncome", 0.5f ,0.5f);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void ButtonClick()
     {
         _coins += _numOfAddingCoins;
@@ -113,9 +107,14 @@ public class CoinStacker : MonoBehaviour
         {
             idle.Cost = PlayerPrefs.GetInt(idle.Name.ToString() + "Cost", idle.Cost);
         }
+
     }
     public int GetIdleCost(int id)
     {
         return idles[id].Cost;
+    }
+    public int GetIncome()
+    {
+        return _passiveIncome;
     }
 }
